@@ -11,7 +11,7 @@ body {
   justify-content: center;
 }
 
-.App{
+.layout{
   width: 350px;
   height: 600px;
   /* border: 2px solid black; */
@@ -32,30 +32,62 @@ body {
   margin-bottom: 40px;
   display: flex;
   border-radius: 15px;
+  background-color: white;
+}
+.text{
+
+  display: flex;
+  width: 100%;
+  height: 100%;
+
+}
+.unTarget{
+  margin-bottom: 22px;
+  font-size: 17px;
+  font-weight: 700;
+}
+.MenuTargets{
+  padding: 10px 5px 10px 5px;
+  height: 10px;
+  width: 90%;
+  margin-left: -5px;
+  background-color: #1d90ae;
+  display: flex;
+  align-items:center;
+  margin-bottom: 18px;
+  font-size: 17px;
+  font-weight: 700;
+  color: white;
 }
 .left-Screen{
 width: 50%;
-background-color: white;
+  margin-left: 17px;
+  margin-top: 15px;
 border-radius: 15px 0 0 15px
 }
-.innerText{
+/* .innerText{
 margin-left: 20px;
 margin-top: 32px;
 font-size: 19px;
 font-weight: 500;
-}
-.menu-list p{
-  background-color: rgb(37, 116, 235);
+cursor: pointer;
+} */
+/* .menu-list p{
   width: 120px;
-
+  padding-left: 5px;
 }
+
+.menu-list p:hover{
+  background-color: rgb(37, 116, 235);
+
+} */
 
 .right-screen{
   width: 50%;
   background-image: url('http://freebigpictures.com/wp-content/uploads/2009/09/trees-sunset.jpg');
   background-position: center;
   background-size: cover;
-  border-radius: 0 15px 11px 0;
+  border-radius: 0 12px 10px 0;
 }
 .controllers{
   height: 35%;
@@ -75,12 +107,17 @@ font-weight: 500;
   background-position: center;
   top: 29%;
   left: 28.5%;
+  cursor: pointer;
+  z-index: 100;
 }
 .top, .left, .right, .bottom{
   border: none;
   background: none;
   font-size: 20px;
   color: gray;
+  cursor: pointer;
+  z-index: 100;
+
 }
 .top{
   position: absolute;
@@ -105,12 +142,4 @@ font-weight: 500;
   left: 41%;
   
 }
-.bottom img{
-  filter: grayscale(1);
-  filter:grayscale(100%) 
-   /* width: 30px; */
-}
-img{
-  filter: grayscale(1);
 
-}
