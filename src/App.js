@@ -72,7 +72,7 @@ class App extends React.Component {
     }
 
     menuPage = () => {
-      if (this.state.music) {
+      if (this.state.allSongs || this.state.artists || this.state.albums) {
         this.setState({
           menu:false,
           coverFlow:false,
@@ -140,6 +140,30 @@ class App extends React.Component {
           albums:false
         })
       }
+     else if (showTarget === 2) {
+        this.setState({
+          menu:false,
+          coverFlow:false,
+          music:false,
+          games:false,
+          setting:false,
+          allSongs:false,
+          artists:true,
+          albums:false
+        })
+      }
+     else if (showTarget === 3) {
+        this.setState({
+          menu:false,
+          coverFlow:false,
+          music:false,
+          games:false,
+          setting:false,
+          allSongs:false,
+          artists:false,
+          albums:true
+        })
+      }
        
       }
    
@@ -147,7 +171,6 @@ class App extends React.Component {
     }
 
   render(){
-    console.log(this.state.allSongs);
 
   return (
     <div className="App">

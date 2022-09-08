@@ -1,6 +1,6 @@
 import React from "react";
 
-const AllSongs = () => {
+const Albums = () => {
 
     return(
         <div style={{
@@ -10,11 +10,11 @@ const AllSongs = () => {
             width:"100%"
         }}>
            
-           <h2>All  Songs</h2>
+           <h2>Albums</h2>
           
 
         </div>
     )
 }
 
-export default AllSongs
+export default Albums

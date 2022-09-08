@@ -5,7 +5,8 @@ import Music from "./components/music";
 import Games from "./components/games";
 import Settings from "./components/setting";
 import AllSongs from "./components/allsongs";
-
+import Artists from "./components/artist";
+import Albums from "./components/albums";
 
 
 const Layout = (props) => {
@@ -43,19 +44,17 @@ const Layout = (props) => {
    }  
    else if(allSongs){
     component= <AllSongs />
+   }
+   else if(artists){
+    component= <Artists />
+   }
+   else if(albums){
+    component= <Albums />
    }  
     return(
         <div className="layout">
         <div className="screen">
           {component}
-        {/* <div className="left-Screen">
-        <div className="innerText">
-        <h3>iPod.js</h3>
-      
-      </div>
-
-        </div>
-        <div className="right-screen"></div> */}
       </div>
       <div 
       onMouseEnter={remote} 
@@ -75,7 +74,6 @@ const Layout = (props) => {
         <button className="bottom">
         <i style={{marginRight:2}} class="fa-solid fa-play"></i>      
         <i class="fa-solid fa-pause"></i>
-         {/* <img src="https://cdn-icons-png.flaticon.com/512/5725/5725942.png" /> */}
         </button>
       </div>
         </div>
