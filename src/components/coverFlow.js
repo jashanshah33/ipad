@@ -1,6 +1,6 @@
 import React from "react";
 
-const coverFlow = (props) => {
+const coverFlow = () => {
 
     return(
         <div style={{

@@ -4,8 +4,8 @@ import ZingTouch from "zingtouch"
 
 class App extends React.Component {
 
-    constructor(){
-      super()
+    constructor(props){
+      super(props)
       this.state={
         showTarget: -1,
         menu: true,
