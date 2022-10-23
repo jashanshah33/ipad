@@ -22,7 +22,7 @@ const AllSongs = () => {
         }}
         >
           <div>
-            <img width={140} src="https://logicalfact.in/wp-content/uploads/2020/12/Sidhu-Moose-wala-Photos-20204-min.jpg" />
+            <img width={140} alt='song poster' src="https://logicalfact.in/wp-content/uploads/2020/12/Sidhu-Moose-wala-Photos-20204-min.jpg" />
             </div> 
            <div>
             <h3 style={{

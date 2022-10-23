@@ -63,17 +63,17 @@ const Layout = (props) => {
        onClick={menuPage}
         className="top">MENU</button>
         <button className="left">
-        <i class="fa-solid fa-backward-fast"></i>
+        <i className="fa-solid fa-backward-fast"></i>
         </button>
         <div
         onClick={enterButton}
         className="enter"></div>
         <button className="right">
-        <i class="fa-solid fa-forward-fast"></i>
+        <i className="fa-solid fa-forward-fast"></i>
         </button>
         <button className="bottom">
-        <i style={{marginRight:2}} class="fa-solid fa-play"></i>      
-        <i class="fa-solid fa-pause"></i>
+        <i style={{marginRight:2}} className="fa-solid fa-play"></i>      
+        <i className="fa-solid fa-pause"></i>
         </button>
       </div>
         </div>
