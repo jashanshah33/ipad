@@ -105,8 +105,8 @@ cursor: pointer;
   background-image: url('http://rlv.zcache.com/light_gray_white_polka_dot_pattern_wrapping_paper-r4129f69e10d64fa98cedbe206e96fc24_zkkn4_8byvr_630.jpg');
   background-size: 240%;
   background-position: center;
-  top: 29%;
-  left: 28.5%;
+  top:60px;
+  left:61px;
   cursor: pointer;
   z-index: 100;
 }
@@ -121,25 +121,25 @@ cursor: pointer;
 }
 .top{
   position: absolute;
-  top: 10%;
-  left: 34%;
+  top: 21px;
+  left: 70px;
   
 }
 .left{
  position: absolute;
- top: 45%;
- left: 7%;
+ top: 95px;
+ left: 15px;
 }
 .right{
   position: absolute;
-  top: 45%;
-  right: 7%;
+  top: 95px;
+  right: 15px;
 
 }
 .bottom{
   position: absolute;
-  bottom: 9%;
-  left: 41%;
+  bottom: 15px;
+  left: 86px;
   
 }
 
